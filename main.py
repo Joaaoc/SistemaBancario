@@ -41,6 +41,7 @@ def depositar_com_lock():
     for _ in range(iteracoes):
         with lock:
             temp = saldo
+            time.sleep(0.000001)
             temp += 1
             saldo = temp
 
@@ -49,6 +50,7 @@ def sacar_com_lock():
     for _ in range(iteracoes):
         with lock:
             temp = saldo
+            time.sleep(0.000001)
             temp -= 1
             saldo = temp
 
