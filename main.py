@@ -1,3 +1,10 @@
+# GRUPO
+# Carolina de Jesus Menezes
+# Joao Vitor Canella Rodrigues de Mesquita
+# Matheus Vieira da Cunha e Silva
+# Ruan Roberto da Silva Bastos
+# Eutelina Cristina Ramos Machado
+
 import threading
 import time
 
